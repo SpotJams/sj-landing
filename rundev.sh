@@ -1,5 +1,5 @@
 #!/bin/bash
 
 
-go run server.go &
+go run local.go &
 grunt watch
