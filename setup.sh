@@ -1,13 +1,13 @@
 #!/bin/bash
 
-sudo apt-get install nodejs npm ruby
+sudo apt-get install -y nodejs npm ruby golang
 sudo gem install sass
 sudo npm install -g grunt grunt-cli
 sudo npm install -g \
 	grunt-contrib-jshint \
 	grunt-contrib-concat \
 	grunt-contrib-uglify \
-	grunt-contrib-sass \
+	grunt-sass \
 	grunt-contrib-watch
 
 
@@ -20,6 +20,8 @@ npm install \
 	grunt-contrib-jshint \
 	grunt-contrib-concat \
 	grunt-contrib-uglify \
-	grunt-contrib-sass \
+	grunt-sass \
 	grunt-contrib-watch
+
+# run grunt once
 grunt
