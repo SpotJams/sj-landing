@@ -7,6 +7,7 @@ This is the SpotJams landing site repository.
 ### References
 
 [github](https://github.com/verdverm/sj-landing)
+
 [materialize](http://materialize.com)
 
 
